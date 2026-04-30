@@ -10,14 +10,14 @@ HAVING COUNT(DISTINCT t.country_id) > 1
 ORDER BY num_paises DESC
 LIMIT 20;
 
--- Artista mas bailable y su genero
+-- Media de bailabilidad por artista  
 SELECT 
 	AVG(t.dnce) AS dnce_media,
     a.artist,
     g.genre
 FROM top50_country t
 JOIN artist a ON t.artist_id = a.artist_id
-JOIN genre g ON t.genre_id = g.genre_id
+JOIN genre g ON g.genre_id = t.genre_id
 GROUP BY a.artist, g.genre
 ORDER BY dnce_media DESC;
 
