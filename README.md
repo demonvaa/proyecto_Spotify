@@ -63,4 +63,10 @@ Analizando específicamente a Abel Tesfaye, filtramos sus canciones que cumplen 
 
 1. **Clona el repositorio:** git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
    
-2. **Instala dependencias:** pip install pandas sqlalchemy pymysql
+2. **Instala dependencias:** pip install pandas sqlalchemy pymysql cryptography
+
+3. **Configura tus credenciales en el archivo config.py.**
+
+4. **Ejecuta el notebook de Jupyter para iniciar el proceso ETL.**
+
+5. **Abre tu gestor SQL preferido y carga las queries de la carpeta /queries.**
