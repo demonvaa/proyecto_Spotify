@@ -1,7 +1,7 @@
 
 # Credenciales de acceso
-DB_USER = "user_name"
-DB_PASSWORD = "password"
+DB_USER = "user name"
+DB_PASSWORD = "password&"
 DB_HOST = "localhost"
 DB_PORT = "3306"
 DB_NAME = "Spotify_proyect"
