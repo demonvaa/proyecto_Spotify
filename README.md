@@ -70,3 +70,5 @@ Analizando específicamente a Abel Tesfaye, filtramos sus canciones que cumplen 
 4. **Ejecuta el notebook de Jupyter para iniciar el proceso ETL.**
 
 5. **Abre tu gestor SQL preferido y carga las queries de la carpeta /queries.**
+
+6. **link presentación:** https://www.canva.com/design/DAHIVLP2G-k/Wx-ngwOS_HPiT-a_ypn_yw/edit
